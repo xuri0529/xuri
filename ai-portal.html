@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>常用大模型入口合集</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif;
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #38bdf8;
+      --text: #e2e8f0;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1rem;
+      gap: 1.5rem;
+    }
+    h1 {
+      margin: 0;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    p.subtitle {
+      margin: 0;
+      color: #94a3b8;
+      text-align: center;
+      max-width: 640px;
+      line-height: 1.5;
+    }
+    .grid {
+      width: min(100%, 960px);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 12px 25px rgba(15, 23, 42, 0.4);
+    }
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.05rem;
+      color: var(--accent);
+    }
+    .card p {
+      margin: 0 0 1rem 0;
+      color: #cbd5f5;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    .card a {
+      text-decoration: none;
+      color: var(--bg);
+      background: var(--accent);
+      padding: 0.6rem 0.9rem;
+      border-radius: 999px;
+      font-weight: 600;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s;
+    }
+    .card a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 18px rgba(56, 189, 248, 0.35);
+    }
+    footer {
+      margin-top: auto;
+      color: #64748b;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>大模型入口导航</h1>
+  <p class="subtitle">将常用的在线大模型集中在一个页面，点击下方卡片即可跳转到对应平台，方便在浏览器中保存或设为起始页。</p>
+  <div class="grid">
+    <div class="card">
+      <h2>Kimi 智能助手</h2>
+      <p>月之暗面出品，长上下文写作、分析网页/文档体验出色。</p>
+      <a href="https://www.kimi.com/?utm_campaign=TR_pqzX5CQU&utm_content=&utm_medium=CPA&utm_source=CH_VmpNgGW9&utm_term=" target="_blank" rel="noopener noreferrer">打开 Kimi</a>
+    </div>
+    <div class="card">
+      <h2>CoderUtil 图谱</h2>
+      <p>收录多款 AI 工具的聚合入口，适合快速切换不同模型。</p>
+      <a href="https://www.coderutil.com/graph/ai" target="_blank" rel="noopener noreferrer">访问 CoderUtil</a>
+    </div>
+    <div class="card">
+      <h2>文心一言</h2>
+      <p>百度自研模型，支持搜索增强、写作翻译以及图像生成。</p>
+      <a href="https://yiyan.baidu.com/" target="_blank" rel="noopener noreferrer">打开文心一言</a>
+    </div>
+    <div class="card">
+      <h2>Metaso 星河</h2>
+      <p>国内 AI 工具合集，覆盖对话、图像、办公多种场景。</p>
+      <a href="https://metaso.cn/" target="_blank" rel="noopener noreferrer">进入 Metaso</a>
+    </div>
+    <div class="card">
+      <h2>DeepSeek Chat</h2>
+      <p>支持算法推理和编码助手，界面简洁，对开发者友好。</p>
+      <a href="https://chat.deepseek.com/" target="_blank" rel="noopener noreferrer">打开 DeepSeek</a>
+    </div>
+  </div>
+  <footer>建议将本页面保存为浏览器收藏夹或设为主页，随时快捷访问多个大模型。</footer>
+</body>
+</html>
